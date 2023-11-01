@@ -1,0 +1,26 @@
+@import "../../scss/variable";
+
+.divHeader{
+    text-align: center;
+    margin: 1rem;
+    padding: 0,5rem;
+    margin-top: 10rem;
+    span{
+        margin-top: 180px;
+        font-size: 4rem;
+        text-shadow: 2px 2px 4px rgba(0255,255,255,0.5);
+        animation: flicker 1s infinite;  
+    }
+
+    @keyframes flicker {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.3;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
