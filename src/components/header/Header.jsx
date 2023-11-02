@@ -4,7 +4,7 @@ import "./Header.scss"
 const Header = () => {
   return (
     <div className='divHeader'>
-      <span>WHO ARE YOU ?</span>
+      <span>WHO ARE YOU ? </span>
     </div>
   )
 }
