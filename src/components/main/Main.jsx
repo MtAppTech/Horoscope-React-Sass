@@ -8,11 +8,9 @@ const Main = () => {
   return (
     <div className='divMain'>
          {/* 1 yol {data.map((item)=> <Card item={item}/>)} */}
-         
          {data.map((item)=>{
             //console.log(item);
             return(
-                
                 <Card item = {item} key={item.id}/> 
             )
          })}

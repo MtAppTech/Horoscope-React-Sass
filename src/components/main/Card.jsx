@@ -1,19 +1,19 @@
 import React from 'react'
 
-const Card = ({item}) => {
-    console.log(item);
+const Card = (props) => {
+    console.log(props.item);
     return (
         
         <div className='cards'>
             <div className="title">
-                <h1>{item.title}</h1>
+                <h1>{props.item.title}</h1>
             </div>
             <div className="date">
-                <h1>{item.date}</h1>
+                <h1>{props.item.date}</h1>
             </div>
-            <img src={item.image} alt="" />
+            <img src={props.item.image} alt="" />
             <div className="card-over">
-                <p>{item.desc}</p>
+                <p>{props.item.desc}</p>
             </div>
 
         </div>
