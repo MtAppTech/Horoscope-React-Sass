@@ -64,14 +64,12 @@
             z-index: 2;
         }
         img {
-
             width: 500px;
             height: 350px;
             object-fit: cover;
             opacity: .5;
             border-radius: 10px;
         }
-
         .card-over {
             width: 500px;
             position: absolute;
@@ -92,7 +90,6 @@
             &::-webkit-scrollbar {
               display: none;
             }
-
             p {
                 color: #fff;
                 font-size: 1.2rem;
